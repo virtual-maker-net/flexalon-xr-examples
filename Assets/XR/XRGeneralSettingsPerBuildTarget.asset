@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8593554854335816705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Android Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: -847426897668238200}
+  m_InitManagerOnStart: 1
 --- !u!114 &-1591723035509077237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,6 +28,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 526109897665726117}
   m_InitManagerOnStart: 1
+--- !u!114 &-847426897668238200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Android Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders:
+  - {fileID: 11400000, guid: 52d55545f484c0e47b66d5950e49eefa, type: 2}
 --- !u!114 &-451719784219053413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,10 +71,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 0100000004000000
+  Keys: 010000000400000007000000
   Values:
   - {fileID: -451719784219053413}
   - {fileID: -1591723035509077237}
+  - {fileID: -8593554854335816705}
 --- !u!114 &526109897665726117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,4 +108,4 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: e900e880a210b7a409f586f16f9088ea, type: 2}
+  - {fileID: 11400000, guid: 52d55545f484c0e47b66d5950e49eefa, type: 2}

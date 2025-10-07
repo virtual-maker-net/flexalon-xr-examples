@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "flexalon-xr-examples.sln"
+    "dotnet.defaultSolution": "flexalon-xr-examples.slnx"
 }
