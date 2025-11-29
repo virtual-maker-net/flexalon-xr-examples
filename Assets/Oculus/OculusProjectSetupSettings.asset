@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: OculusProjectSetupSettings
   m_EditorClassIdentifier: Oculus.VR.Editor::OVRProjectSetupSettings
   boolProperties:
-    keys: []
-    values: 
+    keys:
+    - Meta.XR.SDK.31736735fee7ab217bea57cc359d9f23.MarkedAsFixed.Standalone
+    - Meta.XR.SDK.edfb6eef6866b340551639f2f2c3213d.MarkedAsFixed.Standalone
+    - Meta.XR.SDK.31736735fee7ab217bea57cc359d9f23.MarkedAsFixed.Android
+    - Meta.XR.SDK.edfb6eef6866b340551639f2f2c3213d.MarkedAsFixed.Android
+    values: 01010101
   intProperties:
     keys: []
     values: 
